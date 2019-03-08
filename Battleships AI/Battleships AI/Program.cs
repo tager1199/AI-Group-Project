@@ -12,7 +12,7 @@ namespace Battleship_Interface
         {
 
             //Console.SetWindowSize(width, height); max width is 320, max height is 86
-            Console.SetWindowSize(320, 86);
+            Console.SetWindowSize(240, 63);
 
 
 
@@ -72,7 +72,7 @@ namespace Battleship_Interface
 
 
 
-
+            AIGuess.AI();
             Console.ReadLine();
 
 

@@ -1,0 +1,7 @@
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\bin\Debug\Battleships AI.exe.config
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\bin\Debug\Battleships AI.exe
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\bin\Debug\Battleships AI.pdb
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\obj\Debug\Battleships AI.csprojAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\obj\Debug\Battleships AI.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\obj\Debug\Battleships AI.exe
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\obj\Debug\Battleships AI.pdb
