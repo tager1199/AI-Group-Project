@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AIbattleships;
 
 namespace Battleship_Interface
 {
@@ -11,11 +12,13 @@ namespace Battleship_Interface
     {
         static void Main(string[] args)
         {
+            AiGuess guess = new AiGuess();
+            /*
             Grid gameGrid = new Grid();
 
             printTitle();
 
-            //You'd probably have this all in seperate functions
+            You'd probably have this all in seperate functions
             Console.WriteLine("Enter cell...\n");
             string userEntry = Console.ReadLine().ToUpper();
 
@@ -117,6 +120,7 @@ namespace Battleship_Interface
             Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
             Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
 
+    */
         }
     }
 }
