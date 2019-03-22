@@ -1,32 +1,58 @@
-﻿using System;
+﻿using AiBattleShipGame;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using 
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Battleship_Interface
 {
-    class Program
+    class GameBoard
     {
         static void Main(string[] args)
         {
+            Grid gameGrid = new Grid();
 
-            //Console.SetWindowSize(width, height); max width is 320, max height is 86
-            Console.SetWindowSize(320, 86);
+            printTitle();
 
+            //You'd probably have this all in seperate functions
+            Console.WriteLine("Enter cell...\n");
+            string userEntry = Console.ReadLine().ToUpper();
 
+            int y = ((int)userEntry[0] - 65);
+            int x = ((int)userEntry[1] - 48);
 
-            Console.WriteLine("\t  ___  _____   ______       _   _   _           _     _       ");
-            Console.WriteLine("\t / _ \\|_   _|  | ___ \\     | | | | | |         | |   (_)      ");
-            Console.WriteLine("\t/ /_\\ \\ | |    | |_/ / __ _| |_| |_| | ___  ___| |__  _ _ __  ");
-            Console.WriteLine("\t|  _  | | |    | ___ \\/ _` | __| __| |/ _ \\/ __| '_ \\| | '_ \\ ");
-            Console.WriteLine("\t| | | |_| |_   | |_/ / (_| | |_| |_| |  __/\\__ \\ | | | | |_) |");
-            Console.WriteLine("\t\\_| |_/\\___/   \\____/ \\__,_|\\__|\\__|_|\\___||___/_| |_|_| .__/ ");
-            Console.WriteLine("\t                                                       | |    ");
-            Console.WriteLine("\t                                                       |_|    ");
-            Console.WriteLine("\t                                                              ");
-            Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
-            Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
+            //Can check value by:
+            if (gameGrid.values[x, y] == ' ')
+            {
+                Console.WriteLine("Miss!");
+            }
+            //It's empty
+            else if (gameGrid.values[x, y] == 'S')
+            {
+                Console.WriteLine("Hit!");
+            }
+
+            else if (gameGrid.values[x, y] == 'B')
+            {
+                Console.WriteLine("Hit!");
+            }
+
+            else if (gameGrid.values[x, y] == 'A')
+            {
+                Console.WriteLine("Hit!");
+            }
+
+            else if (gameGrid.values[x, y] == 'D')
+            {
+                Console.WriteLine("Hit!");
+            }
+
+            else if (gameGrid.values[x, y] == 'C')
+            {
+                Console.WriteLine("Hit!");
+            }
 
 
 
@@ -75,6 +101,22 @@ namespace Battleship_Interface
 
             Console.ReadLine();
 
+
+        }
+
+        public static void printTitle()
+        {
+            Console.WriteLine("\t  ___  _____   ______       _   _   _           _     _       ");
+            Console.WriteLine("\t / _ \\|_   _|  | ___ \\     | | | | | |         | |   (_)      ");
+            Console.WriteLine("\t/ /_\\ \\ | |    | |_/ / __ _| |_| |_| | ___  ___| |__  _ _ __  ");
+            Console.WriteLine("\t|  _  | | |    | ___ \\/ _` | __| __| |/ _ \\/ __| '_ \\| | '_ \\ ");
+            Console.WriteLine("\t| | | |_| |_   | |_/ / (_| | |_| |_| |  __/\\__ \\ | | | | |_) |");
+            Console.WriteLine("\t\\_| |_/\\___/   \\____/ \\__,_|\\__|\\__|_|\\___||___/_| |_|_| .__/ ");
+            Console.WriteLine("\t                                                       | |    ");
+            Console.WriteLine("\t                                                       |_|    ");
+            Console.WriteLine("\t                                                              ");
+            Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
+            Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
 
         }
     }
