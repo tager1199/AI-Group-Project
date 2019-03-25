@@ -1,47 +1,60 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.IO;
 
 namespace AiBattleShipGame
 {
     class AIGuess
     {
-        public AIGuess()
+        static void AI()
         {
-            string[] points = File.ReadAllLines(@"D:\Documents\1983\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
-            foreach (string line in points)
+            string[] points = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
+            bool hit = false;
+
+            if (hit == true)
             {
-                //points[i][j] = line.Split(' ');
-                //Console.WriteLine(points);
-                for (int i = 0; i < 10; i++)
-                {
-                    for (int j = 0; j < 10; j++)
-                    {
-                        Console.WriteLine(points[i][j]);
-                    }
-                }
-                PointsUp(0, 0);
-                PointsUp(6, 0);
-                PointsUp(0, 0);
-                PointsUp(6, 0);
-                PointsUp(0, 0);
-                Console.ReadLine();
+                PointsChange(X, Y, 5);
+            }
+            else
+            {
+                PointsChange(X, Y, -1);
             }
         }
 
-        static void PointsUp(int CoordX, int CoordY)
+        static void PointsChange(int CoordX, int CoordY, int Value)
         {
-            string[] OldPoints = File.ReadAllLines(@"D:\Documents\1983\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
-            string[] NewPoints = OldPoints;
-            int Points = Convert.ToInt32(OldPoints[CoordX][CoordY]);
-            Points += 5;
+            string[] OldPoints = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
+            string[] NewPoints = new string[10];
+            string[,] PointsArray = new string[10, 10];
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    string[] PointList = OldPoints[i].Split(",");
+                    PointsArray[i, j] = PointList[j];
+                }
+            }
+            //Console.WriteLine(OldPoints[CoordX]);
+            int Points = Convert.ToInt32(PointsArray[CoordX, CoordY]);
+            Points += Value;
 
-            string str = OldPoints[CoordX];
-            StringBuilder newPoints = new StringBuilder(str);
-            newPoints[CoordY] = Convert.ToChar(Convert.ToString(Points));
-            NewPoints[CoordX] = Convert.ToString(newPoints);
+            PointsArray[CoordX, CoordY] = Convert.ToString(Points);
 
-            System.IO.File.WriteAllLines(@"D:\Documents\1983\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt", NewPoints);
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    NewPoints[i] += PointsArray[i, j];
+                    if (j != 9)
+                    {
+                        NewPoints[i] += ",";
+                    }
+
+                }
+            }
+
+            System.IO.File.WriteAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt", NewPoints);
         }
 
     }
