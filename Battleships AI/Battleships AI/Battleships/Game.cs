@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using 
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,7 +12,6 @@ namespace Battleship_Interface
         static void Main(string[] args)
         {
             Grid gameGrid = new Grid();
-
             printTitle();
 
             //You'd probably have this all in seperate functions
@@ -117,7 +115,6 @@ namespace Battleship_Interface
             Console.WriteLine("\t                                                              ");
             Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
             Console.WriteLine("\t-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-");
-
         }
     }
 }
