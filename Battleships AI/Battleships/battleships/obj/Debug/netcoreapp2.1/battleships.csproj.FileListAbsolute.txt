@@ -1,0 +1,11 @@
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\bin\Debug\netcoreapp2.1\battleships.deps.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\bin\Debug\netcoreapp2.1\battleships.runtimeconfig.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\bin\Debug\netcoreapp2.1\battleships.runtimeconfig.dev.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\bin\Debug\netcoreapp2.1\battleships.dll
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\bin\Debug\netcoreapp2.1\battleships.pdb
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\obj\Debug\netcoreapp2.1\battleships.csprojAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\obj\Debug\netcoreapp2.1\battleships.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\obj\Debug\netcoreapp2.1\battleships.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\obj\Debug\netcoreapp2.1\battleships.AssemblyInfo.cs
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\obj\Debug\netcoreapp2.1\battleships.dll
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\battleships\battleships\obj\Debug\netcoreapp2.1\battleships.pdb
