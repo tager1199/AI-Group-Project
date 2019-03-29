@@ -15,6 +15,9 @@ namespace AiBattleShipGame
             int tempPoints;
             int tempX;
             int tempY;
+            int X;
+            int Y;
+            bool hit = false;
             int[,] maxCoords = new int[5, 2] { {0, 0}, {0, 1}, {0, 2}, {0, 3}, {0, 4} };
             Random rand = new Random();
 
@@ -70,10 +73,54 @@ namespace AiBattleShipGame
             }
 
             int randNum = rand.Next(0, 4);
+            if (randNum == 0)
+            {
+                if (CheckHit(maxCoords[4, 0], maxCoords[4, 1]) == true)
+                {
+                    X = maxCoords[4, 0];
+                    Y = maxCoords[4, 1];
+                    hit = true;
+                }
 
-            bool hit = false;
-            int X = 0;
-            int Y = 0;
+            }
+            else if (randNum == 1)
+            {
+                if (CheckHit(maxCoords[3, 0], maxCoords[3, 1]) == true)
+                {
+                    X = maxCoords[3, 0];
+                    Y = maxCoords[3, 1];
+                    hit = true;
+                }
+            }
+            else if (randNum == 2)
+            {
+                if (CheckHit(maxCoords[2, 0], maxCoords[2, 1]) == true)
+                {
+                    X = maxCoords[2, 0];
+                    Y = maxCoords[2, 1];
+                    hit = true;
+                }
+            }
+            else if (randNum == 3)
+            {
+                if (CheckHit(maxCoords[1, 0], maxCoords[1, 1]) == true)
+                {
+                    X = maxCoords[1, 0];
+                    Y = maxCoords[1, 1];
+                    hit = true;
+                }
+            }
+            else
+            {
+                if (CheckHit(maxCoords[0, 0], maxCoords[0, 1]) == true)
+                {
+                    X = maxCoords[0, 0];
+                    Y = maxCoords[0, 1];
+                    hit = true;
+                }
+            }
+            
+
             if (hit == true)
             {
                 PointsChange(X, Y, 5, PArray);
@@ -109,6 +156,11 @@ namespace AiBattleShipGame
             }
 
             System.IO.File.WriteAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt", NewPoints);
+        }
+
+        static void CheckHit(int X, int Y)
+        {
+            return false;
         }
 
     }
