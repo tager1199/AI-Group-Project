@@ -1,0 +1,18 @@
+C:\Users\Student\Desktop\AiBattleShipGame\AiBattleShipGame\bin\Debug\AiBattleShipGame.exe
+C:\Users\Student\Desktop\AiBattleShipGame\AiBattleShipGame\bin\Debug\AiBattleShipGame.pdb
+C:\Users\Student\Desktop\AiBattleShipGame\AiBattleShipGame\obj\Debug\AiBattleShipGame.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\AiBattleShipGame\AiBattleShipGame\obj\Debug\AiBattleShipGame.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\AiBattleShipGame\AiBattleShipGame\obj\Debug\AiBattleShipGame.exe
+C:\Users\Student\Desktop\AiBattleShipGame\AiBattleShipGame\obj\Debug\AiBattleShipGame.pdb
+E:\LicolnUni\Year 2\Group project\Sheldon&George\AiBattleShipGame\bin\Debug\AiBattleShipGame.exe
+E:\LicolnUni\Year 2\Group project\Sheldon&George\AiBattleShipGame\bin\Debug\AiBattleShipGame.pdb
+E:\LicolnUni\Year 2\Group project\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.csprojAssemblyReference.cache
+E:\LicolnUni\Year 2\Group project\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.csproj.CoreCompileInputs.cache
+E:\LicolnUni\Year 2\Group project\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.exe
+E:\LicolnUni\Year 2\Group project\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.pdb
+C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.exe
+C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.pdb
+C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\bin\Debug\AiBattleShipGame.exe
+C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\bin\Debug\AiBattleShipGame.pdb
