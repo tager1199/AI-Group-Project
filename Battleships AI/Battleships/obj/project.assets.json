@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desktop\\AI-Group-Project\\Battleships AI\\Battleships\\Battleships.csproj",
+      "projectUniqueName": "D:\\Documents\\Discord Bot\\AI-Group-Project\\Battleships AI\\Battleships\\Battleships.csproj",
       "projectName": "Battleships",
-      "projectPath": "D:\\Desktop\\AI-Group-Project\\Battleships AI\\Battleships\\Battleships.csproj",
+      "projectPath": "D:\\Documents\\Discord Bot\\AI-Group-Project\\Battleships AI\\Battleships\\Battleships.csproj",
       "packagesPath": "C:\\Users\\Thomas\\.nuget\\packages\\",
-      "outputPath": "D:\\Desktop\\AI-Group-Project\\Battleships AI\\Battleships\\obj\\",
+      "outputPath": "D:\\Documents\\Discord Bot\\AI-Group-Project\\Battleships AI\\Battleships\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
