@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;                                  //When there has been a Hit, attack in 1 of 4 directions, continue till ship is sunk, if miss, try new direction
+using System.Text;                                
 using System.Threading.Tasks;
 
 namespace AIAttackNeighbours
