@@ -7,7 +7,7 @@ namespace AiBattleShipGame
 {
     class AIGuess
     {
-        static void AI()
+        public void AI()
         {
             string[] points = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
             string[,] PArray = new string[10, 10];
