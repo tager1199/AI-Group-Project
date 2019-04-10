@@ -16,3 +16,7 @@ C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipG
 C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\obj\Debug\AiBattleShipGame.pdb
 C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\bin\Debug\AiBattleShipGame.exe
 C:\Users\Student\Desktop\Sheldon&George\AiBattleShipGame\bin\Debug\AiBattleShipGame.pdb
+D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AiBattleShipGame\obj\Debug\AiBattleShipGame.csprojAssemblyReference.cache
+D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AiBattleShipGame\obj\Debug\AiBattleShipGame.csproj.CoreCompileInputs.cache
+D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AiBattleShipGame\obj\Debug\AiBattleShipGame.exe
+D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AiBattleShipGame\obj\Debug\AiBattleShipGame.pdb

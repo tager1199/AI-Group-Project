@@ -11,7 +11,6 @@ namespace AiBattleShipGame
         {
             string[] points = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
             string[,] PArray = new string[10, 10];
-            Program prog = new Program();
             int[] maxPoints = new int[] {0, 0, 0, 0, 0};
             int tempPoints;
             int tempX;
@@ -26,7 +25,7 @@ namespace AiBattleShipGame
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    string[] PointList = points[i].Split(",");
+                    string[] PointList = points[i].Split(',');
                     PArray[i, j] = PointList[j];
                     if (Convert.ToInt32(PointList[j]) > maxPoints[4])
                     {

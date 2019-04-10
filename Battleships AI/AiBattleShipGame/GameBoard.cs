@@ -28,23 +28,36 @@ namespace AiBattleShipGame
             {'B', 4},
             {'S', 3},
             {'C', 3},
-            {'D', 2 }
+            {'D', 2}
         };
 
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
-            Grid gameGrid = new Grid();
-            var hits = new List<hitCount>();
-            AiDeployment aiDeployment = new AiDeployment(gameGrid);
+            Grid aiGrid = new Grid(),       //Grid where AI ships/player shots are placed
+                 playerGrid = new Grid();   //Grid where player ships/AI shots are placed
+
+            AiDeployment aiDeployment = new AiDeployment(aiGrid);
+            PlayerDeployment playerDeployment = new PlayerDeployment(playerGrid);
+            AIGuess AI = new AIGuess();
+
+            var aiHits = new List<hitCount>();
+            var playerHits = new List<hitCount>();
+
             aiDeployment.runAI();
-            int shipsSunk = 0;
+
+            int aiShipsSunk = 0;
+            int playerShipsSunk = 0;
 
             printTitle();
 
+            playerDeployment.enterShips();
+
             //Can check value by:
-            while(shipsSunk < 5)
+            while (aiShipsSunk < 5 && playerShipsSunk < 5)
             {
-                userPlay(gameGrid, hits, ref shipsSunk);
+                userPlay(aiGrid, playerHits, ref aiShipsSunk);
+                AI.AI();
+                //aiPlay function goes here
             }
             Console.WriteLine("All ships sunk");
             Console.ReadLine();
@@ -61,7 +74,7 @@ namespace AiBattleShipGame
             {
                 Console.WriteLine("You have already hit this location.");
             }
-            else if (grid.values[x,y] == ' ')
+            else if (grid.values[x, y] == ' ')
             {
                 Console.WriteLine("Miss!");
             }
@@ -88,7 +101,7 @@ namespace AiBattleShipGame
                         case 'D':
                             ship = "destroyer";
                             break;
-                         default:
+                        default:
                             ship = "submarine";
                             break;
                     }
@@ -97,6 +110,11 @@ namespace AiBattleShipGame
                 }
 
             }
+        }
+
+        public static void aiPlay(Grid grid, List<hitCount> hits, ref int shipsSunk)
+        {
+
         }
 
         public static void printTitle()

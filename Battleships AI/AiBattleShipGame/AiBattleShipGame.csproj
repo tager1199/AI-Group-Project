@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIAttackNeighbours.cs" />
     <Compile Include="AiDeployment.cs" />
     <Compile Include="AIGuess.cs" />
-    <Compile Include="Game.cs" />
     <Compile Include="GameBoard.cs" />
     <Compile Include="Grid.cs" />
+    <Compile Include="PlayerDeployment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
