@@ -7,7 +7,7 @@ namespace AiBattleShipGame
 {
     class AIGuess
     {
-        public void AI()
+        public void AI(Grid playerGrid)
         {
             string[] points = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
             string[,] PArray = new string[10, 10];
@@ -17,7 +17,6 @@ namespace AiBattleShipGame
             int tempY;
             int X = 0;
             int Y = 0;
-            bool hit = false;
             int[,] maxCoords = new int[5, 2] { {0, 0}, {0, 1}, {0, 2}, {0, 3}, {0, 4} };
             Random rand = new Random();
 
@@ -98,12 +97,8 @@ namespace AiBattleShipGame
                 X = maxCoords[0, 0];
                 Y = maxCoords[0, 1];
             }
-            
-            if (prog.CheckHit(X, Y)){
-                hit = true;
-            }
 
-            if (hit == true)
+            if (CheckHit(playerGrid, X, Y))
             {
                 PointsChange(X, Y, 5, PArray);
             }
@@ -138,6 +133,17 @@ namespace AiBattleShipGame
             }
 
             System.IO.File.WriteAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt", NewPoints);
+        }
+
+        static bool CheckHit(Grid PGrid, int x, int y)
+        {
+            bool hit = false;
+            if (PGrid.values[x, y] != ' ')
+            {
+                hit = true;
+            }
+            
+            return hit;
         }
 
     }

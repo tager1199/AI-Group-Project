@@ -55,8 +55,9 @@ namespace AiBattleShipGame
             //Can check value by:
             while (aiShipsSunk < 5 && playerShipsSunk < 5)
             {
+                Console.WriteLine("Next Turn");
                 userPlay(aiGrid, playerHits, ref aiShipsSunk);
-                AI.AI();
+                AI.AI(playerGrid);
                 //aiPlay function goes here
             }
             Console.WriteLine("All ships sunk");
