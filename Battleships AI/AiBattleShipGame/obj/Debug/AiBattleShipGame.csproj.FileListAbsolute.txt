@@ -24,3 +24,5 @@ C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGa
 C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\obj\Debug\AiBattleShipGame.csproj.CoreCompileInputs.cache
 C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\obj\Debug\AiBattleShipGame.exe
 C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\obj\Debug\AiBattleShipGame.pdb
+D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AiBattleShipGame\bin\Debug\AiBattleShipGame.exe
+D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AiBattleShipGame\bin\Debug\AiBattleShipGame.pdb

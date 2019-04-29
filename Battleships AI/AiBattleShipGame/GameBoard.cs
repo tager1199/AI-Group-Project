@@ -31,7 +31,7 @@ namespace AiBattleShipGame
             {'D', 2}
         };
 
-        public void Main(string[] args)
+        static void Main(string[] args)
         {
             Grid aiGrid = new Grid(),       //Grid where AI ships/player shots are placed
                  playerGrid = new Grid();   //Grid where player ships/AI shots are placed

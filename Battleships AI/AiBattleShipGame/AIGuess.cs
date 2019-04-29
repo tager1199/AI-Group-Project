@@ -9,7 +9,7 @@ namespace AiBattleShipGame
     {
         public void AI(Grid playerGrid)
         {
-            string[] points = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
+            string[] points = File.ReadAllLines(@"D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AIPoints.txt");
             string[,] PArray = new string[10, 10];
             int[] maxPoints = new int[] {0, 0, 0, 0, 0};
             int tempPoints;
@@ -26,45 +26,45 @@ namespace AiBattleShipGame
                 {
                     string[] PointList = points[i].Split(',');
                     PArray[i, j] = PointList[j];
-                    if (Convert.ToInt32(PointList[j]) > maxPoints[4])
+                    if (Convert.ToInt32(PArray[i, j]) > maxPoints[4])
                     {
                         tempPoints = maxPoints[4];
                         tempX = maxCoords[4, 0];
                         tempY = maxCoords[4, 1];
-                        maxPoints[4] = Convert.ToInt32(PointList[j]);
+                        maxPoints[4] = Convert.ToInt32(PArray[i, j]);
                         maxCoords[4, 0] = i;
                         maxCoords[4, 1] = j;
                     }
-                    else if (Convert.ToInt32(PointList[j]) > maxPoints[3])
+                    else if (Convert.ToInt32(PArray[i, j]) > maxPoints[3])
                     {
                         tempPoints = maxPoints[3];
                         tempX = maxCoords[3, 0];
                         tempY = maxCoords[3, 1];
-                        maxPoints[3] = Convert.ToInt32(PointList[j]);
+                        maxPoints[3] = Convert.ToInt32(PArray[i, j]);
                         maxCoords[3, 0] = i;
                         maxCoords[3, 1] = j;
                     }
-                    else if (Convert.ToInt32(PointList[j]) > maxPoints[2])
+                    else if (Convert.ToInt32(PArray[i, j]) > maxPoints[2])
                     {
                         tempPoints = maxPoints[2];
                         tempX = maxCoords[2, 0];
                         tempY = maxCoords[2, 1];
-                        maxPoints[2] = Convert.ToInt32(PointList[j]);
+                        maxPoints[2] = Convert.ToInt32(PArray[i, j]);
                         maxCoords[2, 0] = i;
                         maxCoords[2, 1] = j;
                     }
-                    else if (Convert.ToInt32(PointList[j]) > maxPoints[1])
+                    else if (Convert.ToInt32(PArray[i, j]) > maxPoints[1])
                     {
                         tempPoints = maxPoints[1];
                         tempX = maxCoords[1, 0];
                         tempY = maxCoords[1, 1];
-                        maxPoints[1] = Convert.ToInt32(PointList[j]);
+                        maxPoints[1] = Convert.ToInt32(PArray[i, j]);
                         maxCoords[1, 0] = i;
                         maxCoords[1, 1] = j;
                     }
-                    else if (Convert.ToInt32(PointList[j]) > maxPoints[0])
+                    else if (Convert.ToInt32(PArray[i, j]) > maxPoints[0])
                     {
-                        maxPoints[0] = Convert.ToInt32(PointList[j]);
+                        maxPoints[0] = Convert.ToInt32(PArray[i, j]);
                         maxCoords[0, 0] = i;
                         maxCoords[0, 1] = j;
                     }
@@ -101,16 +101,20 @@ namespace AiBattleShipGame
             if (CheckHit(playerGrid, X, Y))
             {
                 PointsChange(X, Y, 5, PArray);
+                Console.WriteLine("The AI guessed at: " + X + " " + Y);
+                Console.WriteLine("It Hit");
             }
             else
             {
                 PointsChange(X, Y, -1, PArray);
+                Console.WriteLine("The AI guessed at: " + X + " " + Y);
+                Console.WriteLine("It Missed");
             }
         }
 
         static void PointsChange(int CoordX, int CoordY, int Value, string[,] PointsArray)
         {
-            string[] OldPoints = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt");
+            string[] OldPoints = File.ReadAllLines(@"D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AIPoints.txt");
             string[] NewPoints = new string[10];
 
             //Console.WriteLine(OldPoints[CoordX]);
@@ -132,7 +136,7 @@ namespace AiBattleShipGame
                 }
             }
 
-            System.IO.File.WriteAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\Battleships AI\AIPoints.txt", NewPoints);
+            System.IO.File.WriteAllLines(@"D:\Documents\Discord Bot\AI-Group-Project\Battleships AI\AIPoints.txt", NewPoints);
         }
 
         static bool CheckHit(Grid PGrid, int x, int y)
