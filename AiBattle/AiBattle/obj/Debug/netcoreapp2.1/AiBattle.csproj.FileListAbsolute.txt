@@ -1,0 +1,44 @@
+C:\Users\Student\source\repos\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csprojAssemblyReference.cache
+C:\Users\Student\source\repos\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csproj.CoreCompileInputs.cache
+C:\Users\Student\source\repos\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfoInputs.cache
+C:\Users\Student\source\repos\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfo.cs
+C:\Users\Student\source\repos\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.deps.json
+C:\Users\Student\source\repos\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.json
+C:\Users\Student\source\repos\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.dev.json
+C:\Users\Student\source\repos\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.dll
+C:\Users\Student\source\repos\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.pdb
+C:\Users\Student\source\repos\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.dll
+C:\Users\Student\source\repos\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.pdb
+F:\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.deps.json
+F:\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.json
+F:\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.dev.json
+F:\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.dll
+F:\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.pdb
+F:\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csprojAssemblyReference.cache
+F:\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csproj.CoreCompileInputs.cache
+F:\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfoInputs.cache
+F:\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfo.cs
+F:\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.dll
+F:\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.pdb
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.deps.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.dev.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.dll
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.pdb
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csprojAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfo.cs
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.dll
+C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.pdb
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.deps.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.runtimeconfig.dev.json
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.dll
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\bin\Debug\netcoreapp2.1\AiBattle.pdb
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csprojAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfoInputs.cache
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.AssemblyInfo.cs
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.dll
+C:\Users\Student\Documents\GitHub\AI-Group-Project\AiBattle\AiBattle\obj\Debug\netcoreapp2.1\AiBattle.pdb
