@@ -7,9 +7,11 @@ namespace AiBattle
 {
     class AIGuess
     {
+        string path = Directory.GetCurrentDirectory();
         public string[,] AI(string[,] playerGrid, string[,] HitArray)
         {
-            string[] points = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AIPoints.txt");
+
+            string[] points = File.ReadAllLines(@path + "\\AIPoints.txt");
             string[,] PArray = new string[10, 10];
             
             int[] maxPoints = new int[] {-10000, -10000, -10000, -10000, -10000};
@@ -103,17 +105,17 @@ namespace AiBattle
             }
 
             HitArray[X, Y] = "hit";
-
+            string[] letters = { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J" };
             if (playerGrid[X, Y] == "0")
             {
                 PointsChange(X, Y, 5, PArray);
-                Console.WriteLine("The AI guessed at: " + X + " " + Y);
+                Console.WriteLine("The AI guessed at: " + letters[X] + " " + Y);
                 Console.WriteLine("It Hit");
             }
             else
             {
                 PointsChange(X, Y, -1, PArray);
-                Console.WriteLine("The AI guessed at: " + X + " " + Y);
+                Console.WriteLine("The AI guessed at: " + letters[X] + " " + Y);
                 Console.WriteLine("It Missed");
             }
             return HitArray;
@@ -121,7 +123,7 @@ namespace AiBattle
 
         static void PointsChange(int CoordX, int CoordY, int Value, string[,] PointsArray)
         {
-            string[] OldPoints = File.ReadAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AIPoints.txt");
+            string[] OldPoints = File.ReadAllLines(@path + "\\AIPoints.txt");
             string[] NewPoints = new string[10];
 
             //Console.WriteLine(OldPoints[CoordX]);
@@ -143,7 +145,7 @@ namespace AiBattle
                 }
             }
 
-            System.IO.File.WriteAllLines(@"C:\Users\Student\Documents\GitHub\AI-Group-Project\Battleships AI\AiBattleShipGame\AIPoints.txt", NewPoints);
+            System.IO.File.WriteAllLines(@path + "\\AIPoints.txt", NewPoints);
         }
     }
 }

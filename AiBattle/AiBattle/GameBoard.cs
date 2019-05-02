@@ -86,21 +86,6 @@ namespace AiBattle
                                                         { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
                                                         { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" }};  //creates a matrix 10x10 (rows then columns) of 0's aka nothing placed there
 
-            //string[,] battleship_matrix_test = new string[10, 10] {{ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" },
-            //                                            { "0", "0", "0", "0", "0", "0", "0", "0", "0", "0" }};
-
-
-
-
-
             string aircraft_carrier = "A";
             string shipA = "Aircraft Carrier";
             int sizeA = 5;
@@ -723,6 +708,16 @@ namespace AiBattle
                 userPlay(gameGrid, hits, ref shipsSunk);
                 HitArray = AI.AI(battleship_matrix, HitArray);
                 //aiPlay function goes here
+                for (int i = 0; i < 10; i++)
+                {
+                    for (int j = 0; j < 10; j++)
+                    {
+                        if (HitArray[i, j] == "hit")
+                        {
+                           // gameGrid[i,j] = 
+                        }
+                    }
+                }
             }
 
             Console.WriteLine("All ships sunk");
